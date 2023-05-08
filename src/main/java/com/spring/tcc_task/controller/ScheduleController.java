@@ -1,4 +1,4 @@
-package com.spring.tcc_task.controller.rest;
+package com.spring.tcc_task.controller;
 
 import com.spring.tcc_task.dto.ScheduleRequestDTO;
 import com.spring.tcc_task.dto.ScheduleResponseDTO;
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-//@RestController
-//@RequestMapping("/api")
+@RestController
+@RequestMapping("/api")
 public class ScheduleController {
 
     @Autowired

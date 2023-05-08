@@ -1,4 +1,4 @@
-package com.spring.tcc_task.controller.rest;
+package com.spring.tcc_task.controller;
 
 
 import com.spring.tcc_task.models.Staff;
