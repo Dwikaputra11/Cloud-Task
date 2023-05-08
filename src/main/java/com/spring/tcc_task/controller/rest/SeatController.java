@@ -1,4 +1,4 @@
-package com.spring.tcc_task.controller;
+package com.spring.tcc_task.controller.rest;
 
 import com.spring.tcc_task.models.Seat;
 import com.spring.tcc_task.service.SeatService;

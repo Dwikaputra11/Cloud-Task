@@ -1,4 +1,4 @@
-package com.spring.tcc_task.controller;
+package com.spring.tcc_task.controller.rest;
 
 import com.spring.tcc_task.dto.PaymentRequestDTO;
 import com.spring.tcc_task.dto.PaymentResponseDTO;
