@@ -11,10 +11,10 @@
 <div class="container">
   <h3>Schedule List</h3>
   <hr>
-  <a th:href="@{/schedule/add}"
+  <!--<a th:href="@{/schedule/add}"
      class="btn btn-primary btn-sm mb-3">
     Add Schedule
-  </a>
+  </a>-->
 
   <table class="table table-bordered table-striped">
     <thead class="table-dark">
@@ -38,13 +38,13 @@
       <td th:text="${schedule.price}" />
       <!-- Add update button link-->
       <td>
-        <a th:href="@{/schedule/update/{scheduleId}(scheduleId = ${schedule.scheduleId})}"
+        <!--<a th:href="@{/schedule/update/{scheduleId}(scheduleId = ${schedule.scheduleId})}"
            class="btn btn-warning btn-sm">
           Update
-        </a>
-        <a th:href="@{/schedule/delete(scheduleId=${schedule.scheduleId})}"
+        </a>-->
+        <a th:href="@{/schedule/delete/{scheduleId}(scheduleId = ${schedule.scheduleId})}"
            class="btn btn-danger btn-sm"
-           onclick="if (!confirm('Are you sure you want sto delete this schedule?')) return false">
+           onclick="if (!confirm('Are you sure you want to delete this schedule?')) return false">
           Delete
         </a>
         <a th:href="@{/schedule/details/{scheduleId}(scheduleId = ${schedule.scheduleId})}"
